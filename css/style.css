@@ -85,6 +85,13 @@ h2 {
     color: #fff;
     text-decoration: none; }
 
+.icon {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
+  .icon:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+
 a.btn {
   display: inline-block;
   padding: 0.75em 2.1875em;
